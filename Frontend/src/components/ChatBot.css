@@ -1,0 +1,83 @@
+.chatbot-container {
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .chatbot-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chatbot-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .chatbot-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #F58A42;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chatbot-button:hover {
+    background-color: #f57520;
+  }
+  
+  .response-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .response-comparison {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .retrieval-context,
+  .generated-response {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .retrieval-context h4,
+  .generated-response h4 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .sources {
+    margin-top: 15px;
+  }
+  
+  .video-link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .video-link:hover {
+    color: #0056b3;
+  }
+  
