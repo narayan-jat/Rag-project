@@ -23,7 +23,7 @@ We tested the pipeline on datasets of three sizes:
 
 ### **RAG Pipeline**
 
-![](Youtube%20video%20search(RAG)/media/Aspose.Words.39d9ae32-589e-409b-b690-aa16d4d14a26.001.png)
+![](/Youtube%20video%20search(RAG)/media/Aspose.Words.39d9ae32-589e-409b-b690-aa16d4d14a26.001.png)
 
 ---
 
@@ -108,7 +108,7 @@ We tested the pipeline on datasets of three sizes:
 
 1. At a threshold of **0.3**, natural language prompts retrieved no content as documents failed to pass the threshold.
 
-![](Youtube%20video%20search(RAG)/media/Aspose.Words.39d9ae32-589e-409b-b690-aa16d4d14a26.003.jpeg)
+![](/Youtube%20video%20search(RAG)/media/Aspose.Words.39d9ae32-589e-409b-b690-aa16d4d14a26.003.jpeg)
 
 2. At a threshold of **0.1**, natural language prompts returned good results.
 
